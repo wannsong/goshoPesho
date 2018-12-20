@@ -10,6 +10,8 @@ import org.tribot.api2007.types.RSObject;
 import org.tribot.api2007.types.RSTile;
 import scripts.framework.task.Task;
 
+import static org.tribot.api.General.sleep;
+
 public class Cows extends Task
 {
     private static final long serialVersionUID = 8860378162856920333L;
@@ -17,15 +19,18 @@ public class Cows extends Task
     private static final RSTile goGate = new RSTile(3251, 3266);
     private static final RSTile wheatGate = new RSTile(3162, 3288);
     private static final RSTile wheat = new RSTile(3162, 3292);
-    private static final RSItem[] bucket = Inventory.find(1925);
     public void execute() {
         WebWalking.walkTo(goGate);
 
         checkGate();
         WebWalking.walkTo(cows);
-        bucket[0].click("Use");
-        RSObject[] cow = Objects.findNearest(20, 2691);
-        if (cow.length > 0) {
+        sleep(750, 1000);
+        RSObject[] cow = Objects.findNearest(10, "Dairy cow");
+        General.println("tyrsq Kravi");
+        while (cow.length == 0) {
+            cow = Objects.findNearest(10, "Dairy cow");
+        }
+        if (cow.length > 0){
             RSObject target = cow[0];
             if (target != null) {
                 if (!target.isOnScreen()) {
@@ -34,11 +39,12 @@ public class Cows extends Task
                 } else {
                     if (target.click("Milk")) {
                         Camera.setCameraAngle(100);
-                        General.sleep(50);
+                        sleep(50);
                     }
                 }
             }
         }
+        General.println("Nqma kravi");
         WebWalking.walkTo(wheatGate);
         checkGate();
         WebWalking.walkTo(wheat);
@@ -52,7 +58,7 @@ public class Cows extends Task
                 } else {
                     if (target.click("Pick")) {
                         Camera.setCameraAngle(100);
-                        General.sleep(50);
+                        sleep(50);
                     }
                 }
             }
@@ -72,7 +78,7 @@ public class Cows extends Task
                 } else {
                     if (target.click("Open")) {
                         Camera.setCameraAngle(100);
-                        General.sleep(50);
+                        sleep(50);
                     }
                 }
             }

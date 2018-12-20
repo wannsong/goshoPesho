@@ -52,7 +52,7 @@ public class CooksAssistantQuest extends QuestScriptManager
 	@Override
 	public LinkedList<Task> getTaskList()
 	{
-		return new LinkedList<>(Arrays.asList(new CooksDialog(), new GrabMaterials(this),
+		return new LinkedList<>(Arrays.asList(
 				new Cows(), new Chickens(), new Mill(), new ReturnQuest()));
 	}
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36333cb4-92c6-4c49-972d-eadc9675d86b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalCalibur-fc-dorics-quest-de34ef556bf4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinalCalibur-fc-dorics-quest-de34ef556bf4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fcdoricsquest/FCDoricsQuestScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fcdoricsquest/FCDoricsQuestScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Chickens.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Chickens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/CooksDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/CooksDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +30,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="319">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2209#2210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="527">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding>
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#744#745#0" expanded="true" />
@@ -53,16 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="440">
+              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <element signature="e#2950#2951#0" expanded="true" />
+                <element signature="e#3043#3044#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Chickens.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -74,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Mill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="397">
+              <caret line="64" column="17" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="64" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -83,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/CooksDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="247">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,9 +102,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scripts/fcdoricsquest/FCDoricsQuestScript.java" />
-        <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java" />
         <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/CooksDialog.java" />
         <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Chickens.java" />
+        <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java" />
+        <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java" />
+        <option value="$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java" />
       </list>
     </option>
   </component>
@@ -170,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545317178170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545319654836" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545239083129</updated>
       <workItem from="1545239085442" duration="947000" />
-      <workItem from="1545316930187" duration="588000" />
+      <workItem from="1545316930187" duration="1849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1535000" />
+    <option name="totallyTimeSpent" value="2796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -256,42 +262,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/CooksDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="247">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Mill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="64" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -299,6 +280,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/GrabMaterials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/CooksAssistantQuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/missions/cooksAsistant/tasks/Cows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
