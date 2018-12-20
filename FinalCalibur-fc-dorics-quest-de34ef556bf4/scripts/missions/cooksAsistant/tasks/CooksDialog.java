@@ -11,8 +11,7 @@ public class CooksDialog extends Task
 {
 	private static final long serialVersionUID = -2799862046107080194L;
 	
-	private final Positionable COOKS_TITLE = new RSTile(3160, 3160, 0);
-	private final int DISTANCE_THRESHOLD = 2;
+	private final Positionable COOKS_TITLE = new RSTile(3207, 3216, 0);
 
 	@Override
 	public void execute()

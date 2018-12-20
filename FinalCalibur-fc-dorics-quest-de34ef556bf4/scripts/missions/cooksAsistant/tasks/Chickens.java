@@ -30,7 +30,7 @@ public class Chickens extends Task {
             }
         }
         WebWalking.walkTo(goChicken);
-        RSObject[] eggs = Objects.findNearest(20, "Egg");
+        RSObject[] eggs = Objects.findNearest(10, "Egg");
         if (eggs.length > 0) {
             RSObject target = eggs[0];
             if (target != null) {

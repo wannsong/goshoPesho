@@ -1,6 +1,7 @@
 package scripts.missions.cooksAsistant.tasks;
 
 import org.tribot.api.DynamicClicking;
+import org.tribot.api.General;
 import org.tribot.api2007.Objects;
 import org.tribot.api2007.WebWalking;
 import org.tribot.api2007.types.RSObject;
@@ -43,11 +44,16 @@ public class GrabMaterials extends Task
 			}
 				RSTile bucketGo = new RSTile(3216, 9624);
 				WebWalking.walkTo(bucketGo);
-				RSObject[] bucket = Objects.findNearest(10, "Bucket");
-				while (bucket.length == 0) {
-					sleep(750, 1000);
-					bucket = Objects.findNearest(10, "Bucket");
+			RSObject[] bucket = Objects.findNearest(10, "Bucket");
+			for (int i = 0; i < bucket.length; i++) {
+				if (doors[0] != null) {
+					if (doors[0].isClickable()) {
+						DynamicClicking.clickRSObject(doors[i], "Take");
+						sleep(750, 1000);
+						break;
+					}
 				}
+			}
 				GroundItemInteraction bucketPick = new PickUpGroundItem("Bucket");
 				bucketPick.execute();
 				RSTile ladderGo = new RSTile(3209, 9617);

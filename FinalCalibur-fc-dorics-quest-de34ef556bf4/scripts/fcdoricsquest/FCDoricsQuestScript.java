@@ -16,12 +16,12 @@ import scripts.missions.cooksAsistant.CooksAssistantQuest;
 
 @ScriptManifest(
 		authors     = { 
-		    "Final Calibur",
+		    "YANIIIIII",
 		}, 
-		category    = "Quests", 
-		name        = "FC Doric's Quest", 
+		category    = "YANIIII",
+		name        = "YANIIII",
 		version     = 0.2, 
-		description = "Completes Doric's Quest for you. Start anywhere.", 
+		description = "YANIIIII",
 		gameMode    = 1)
 
 public class FCDoricsQuestScript extends FCMissionScript implements FCPaintable, Painting, Starting, Ending
